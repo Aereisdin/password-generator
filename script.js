@@ -10,22 +10,6 @@ var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
 var special =["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "=", "+"];
 
-// var capLet = capLetter[Math.floor(Math.random() * capLetter.length)];
-// var lowLet = lowLetter[Math.floor(Math.random() * lowLetter.length)];
-// var num = number[Math.floor(Math.random() * number.length)];
-// var spec = special[Math.floor(Math.random() * special.length)];
-
-// console.log(capLet)
-// console.log(lowLet)
-
-// var capLet = capLetter.charAt(Math.floor(Math.random() * capLetter.length));
-
-// var lowLet = lowLetter.charAt(Math.floor(Math.random() * lowLetter.length));
-
-// var num = number.charAt(Math.floor(Math.random() * number.length));
-
-// var spec = special.charAt(Math.floor(Math.random() * special.length));
-
 function button(){
         var length = prompt("How long would you like your passord to be? Please enter a number between 8 and 128.");{
             if(length < 8){
