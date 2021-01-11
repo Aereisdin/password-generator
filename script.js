@@ -35,24 +35,24 @@ function button(){
                 prompt("Please select a lower number.");
             }
         }
-        
+        for(var i = 0; i < length; i++){
         var capLet = capLetter[Math.floor(Math.random() * capLetter.length)];
         var lowLet = lowLetter[Math.floor(Math.random() * lowLetter.length)];
         var num = number[Math.floor(Math.random() * number.length)];
         var spec = special[Math.floor(Math.random() * special.length)];
-        for(var i = 0; i < length; i++){
+
         var choice = prompt("Please choose the next character in your new password. c for a capital letter, l for a lowercase letter, n for a number or s for a special character.");{
             if(choice === "c"){
-            document.getElementById("password").innerHTML = capLet;
+            document.getElementById("password").innerHTML += capLet;
              }
              else if(choice === "l"){
-            document.getElementById("password").innerHTML = lowLet;
+            document.getElementById("password").innerHTML += lowLet;
              }
              else if(choice === "n"){
-            document.getElementById("password").innerHTML = num;
+            document.getElementById("password").innerHTML += num;
              }
              else if(choice === "s"){
-            document.getElementById("password").innerHTML = spec;
+            document.getElementById("password").innerHTML += spec;
             }
             else prompt("That is not a valid choice") 
         }
