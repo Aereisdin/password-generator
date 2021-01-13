@@ -11,7 +11,7 @@ var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var special =["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "=", "+"];
 
 function button(){
-        
+        password.innerHTML = "";
         var length = prompt("How long would you like your passord to be? Please enter a number between 8 and 128.");{
             if(length < 8){
                 prompt("Please select a higher number.");
