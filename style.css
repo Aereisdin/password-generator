@@ -31,4 +31,5 @@ body, html {
     position: relative;
     padding: 10% 10% 10% 10%;
     overflow: auto;
+    word-wrap:break-word;
 } 
