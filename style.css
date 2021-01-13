@@ -30,4 +30,5 @@ body, html {
     text-align: center;
     position: relative;
     padding: 10% 10% 10% 10%;
+    overflow: auto;
 } 
