@@ -22,11 +22,6 @@ function button(){
         }
         alert("Your password will have lowercase letters by default");
 
-        var capLet = capLetter[Math.floor(Math.random() * capLetter.length)];
-        var lowLet = lowLetter[Math.floor(Math.random() * lowLetter.length)];
-        var num = number[Math.floor(Math.random() * number.length)];
-        var spec = special[Math.floor(Math.random() * special.length)];
-
         var character = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
         var capital = confirm("Would you like capital letters in your password?");{
