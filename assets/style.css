@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body, html {
+    height: 100%;
+    background-color: #222;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16pt;
+    line-height: 1.5;
+}
+.hero {
+    background-image: url(./image/lock.jpg);
+    height: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.mainbox {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 2% 2% 2% 2%;
+    width: 50%;
+    position: relative;
+
+}
+.password {
+    border: #888 dashed;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    padding: 10% 10% 10% 10%;
+    overflow: auto;
+    word-wrap:break-word;
+} 
