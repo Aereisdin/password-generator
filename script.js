@@ -19,6 +19,9 @@ function button(){
             else if(length > 128){
                 prompt("Please select a lower number.");
             }
+            else if(isNaN(length) === true){
+                prompt("You've entered a letter instead of a number. Please try again.")
+            }
         }
         alert("Your password will have lowercase letters by default");
 
