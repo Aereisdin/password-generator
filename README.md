@@ -1,2 +1,12 @@
 # password-generator
-JS homework from BootCamp
+
+
+
+
+
+
+
+
+
+
+![Screenshot](./image/passwordgenerator.png?raw=true "Site")
