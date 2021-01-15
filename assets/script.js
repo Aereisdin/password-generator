@@ -20,7 +20,8 @@ function button(){
                 prompt("Please select a lower number.");
             }
             else if(isNaN(length) === true){
-                prompt("You've entered a letter instead of a number. Please refesh the page and try again.")
+                prompt("You've entered a letter instead of a number. Please refesh the page and try again.");
+                return
             }
         }
         alert("Your password will have lowercase letters by default");
