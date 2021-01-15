@@ -8,7 +8,7 @@ body, html {
     line-height: 1.5;
 }
 .hero {
-    background-image: url(./image/lock.jpg);
+    background-image: url(./images/lock.jpg);
     height: 30%;
     background-position: center;
     background-repeat: no-repeat;
